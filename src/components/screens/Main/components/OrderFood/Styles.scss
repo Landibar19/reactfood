@@ -1,0 +1,40 @@
+.order-food {
+    background-color: grey;
+    .amount {
+        flex:1;
+        display: flex;
+        flex-flow: row nowrap;
+        align-items:flex-end;
+        position: relative;
+        justify-content: flex-end;
+        float: right;
+        }
+
+        .name{
+            flex: 1;
+            white-space: nowrap;
+            position: relative;
+            left: auto;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            
+        }
+    
+    
+    .price {
+        flex: 1;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: flex-end;
+        padding: 10px;
+        border: 1 px solid ;
+        border-radius: 6px;
+        color: #cccecd;
+        width:max-content;
+        box-sizing: border-box;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: red;
+    
+    
+    }
+
+}

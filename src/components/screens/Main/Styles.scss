@@ -1,0 +1,17 @@
+.main-container {
+    background: url(image.jpg);
+    position:relative;
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    bottom: 20px;
+}
+
+.main-info {
+    background-color: gray;
+    position: relative;
+    height: 200px;
+    width: 450px;
+    left: 300px;
+    top: 250px;
+}
